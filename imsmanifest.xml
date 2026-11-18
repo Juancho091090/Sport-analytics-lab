@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="SportAnalyticsLab_ODC_UdeC" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG-SAL">
+    <organization identifier="ORG-SAL">
+      <title>Sport Analytics Lab: decisiones estratégicas basadas en datos</title>
+      <item identifier="ITEM-SAL" identifierref="RES-SAL" isvisible="true">
+        <title>Sport Analytics Lab: decisiones estratégicas basadas en datos</title>
+        <adlcp:masteryscore>80</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-SAL" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="LEEME.txt"/>
+      <file href="assets/audio/LISTA_DE_AUDIOS.txt"/>
+      <file href="assets/audio/p01.mp3"/>
+      <file href="assets/audio/p02.mp3"/>
+      <file href="assets/audio/p03.mp3"/>
+      <file href="assets/audio/p04.mp3"/>
+      <file href="assets/audio/p05.mp3"/>
+      <file href="assets/audio/p06.mp3"/>
+      <file href="assets/audio/p07.mp3"/>
+      <file href="assets/audio/p08.mp3"/>
+      <file href="assets/audio/p09.mp3"/>
+      <file href="assets/audio/p10.mp3"/>
+      <file href="assets/audio/p10_1.mp3"/>
+      <file href="assets/audio/p10_2.mp3"/>
+      <file href="assets/audio/p10_3.mp3"/>
+      <file href="assets/audio/p11.mp3"/>
+      <file href="assets/audio/p12.mp3"/>
+      <file href="assets/audio/p13.mp3"/>
+      <file href="assets/audio/p14.mp3"/>
+      <file href="assets/audio/p14_1.mp3"/>
+      <file href="assets/fonts/Poppins-Bold.ttf"/>
+      <file href="assets/fonts/Poppins-Light.ttf"/>
+      <file href="assets/fonts/Poppins-Medium.ttf"/>
+      <file href="assets/fonts/Poppins-Regular.ttf"/>
+      <file href="css/styles.css"/>
+      <file href="index.html"/>
+      <file href="js/app.js"/>
+      <file href="js/content.js"/>
+      <file href="js/icons.js"/>
+      <file href="js/scorm.js"/>
+    </resource>
+  </resources>
+</manifest>

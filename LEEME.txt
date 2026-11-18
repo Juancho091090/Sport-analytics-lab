@@ -1,0 +1,29 @@
+SPORT ANALYTICS LAB · ODC (paquete SCORM 1.2)
+=============================================
+Autores: Juan Carlos Soto Méndez y Diego Alejandro Puentes Ramírez
+Universidad de Cundinamarca · Especialización en Analítica y Ciencia de Datos
+
+CÓMO VERLO
+- Sin plataforma: abra index.html en Chrome, Edge o Firefox. Funciona sin internet.
+- En una plataforma (Moodle, SCORM Cloud, etc.): suba el archivo .zip completo como paquete SCORM 1.2.
+
+ESTRUCTURA
+- index.html ............ página principal
+- imsmanifest.xml ....... manifiesto SCORM 1.2 (no lo borre ni lo renombre)
+- js/content.js ......... TODOS los textos, preguntas y retroalimentaciones (edite aquí)
+- js/app.js ............. navegación, actividades, simulador y evaluación
+- js/scorm.js ........... comunicación con la plataforma (puntaje, estado, progreso)
+- js/icons.js ........... íconos Lucide (licencia ISC)
+- css/styles.css ........ diseño
+- assets/fonts .......... tipografía Poppins (SIL Open Font License)
+- assets/audio .......... 18 audios del Coach Kai (MP3, voces de los autores)
+
+QUÉ REPORTA A LA PLATAFORMA
+- Estado: "incomplete" al iniciar; "passed" o "failed" al terminar la evaluación final (aprobación: 80 %).
+- Puntaje: el mejor resultado de la evaluación final (0-100).
+- Progreso y última pantalla visitada (el estudiante continúa donde quedó).
+
+PARA AGREGAR LOS AUDIOS O CORREGIR TEXTOS
+1. Copie los MP3 en assets/audio con los nombres de LISTA_DE_AUDIOS.txt, o edite js/content.js.
+2. Vuelva a comprimir el CONTENIDO de esta carpeta (no la carpeta misma): imsmanifest.xml debe quedar en la raíz del .zip.
+   Si agrega archivos nuevos, pídale a quien generó el paquete que actualice imsmanifest.xml.

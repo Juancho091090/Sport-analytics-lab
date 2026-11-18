@@ -1,0 +1,23 @@
+AUDIOS DEL COACH KAI
+====================
+Grabe cada guion (ver js/content.js, campo "voz") y guarde el MP3 con este nombre exacto en esta carpeta.
+Mientras falte un archivo, el ODC muestra la transcripción automáticamente.
+
+Pantalla 1     ->  p01.mp3
+Pantalla 2     ->  p02.mp3
+Pantalla 3     ->  p03.mp3
+Pantalla 4     ->  p04.mp3
+Pantalla 5     ->  p05.mp3
+Pantalla 6     ->  p06.mp3
+Pantalla 7     ->  p07.mp3
+Pantalla 8     ->  p08.mp3
+Pantalla 9     ->  p09.mp3
+Pantalla 10    ->  p10.mp3
+Pantalla 10.1  ->  p10_1.mp3
+Pantalla 10.2  ->  p10_2.mp3
+Pantalla 10.3  ->  p10_3.mp3
+Pantalla 11    ->  p11.mp3
+Pantalla 12    ->  p12.mp3
+Pantalla 13    ->  p13.mp3
+Pantalla 14    ->  p14.mp3
+Pantalla 14.1  ->  p14_1.mp3
